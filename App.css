@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: nowrap;  /* Ensure no flex-wrap */
+}
+
+.col-6, .col-4, {
+  flex: 1;
+  text-align: left;
+  padding: 5px;
+}
+
+.col-6 {
+  flex: 2;
+}.col-2{
+  margin-right: 40px;
+}.col-4{
+  margin-right:120px;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="date"] {
+  margin-right: 10px;
+  padding: 5px;
+  margin: 0px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}form input[type="text"]{
+  text-transform: capitalize;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
